@@ -28,5 +28,5 @@ app.get("*", (req, res) => {
 
 server.listen(process.env.PORT, () => {
     connectToDB()
-    console.log(`server is running in port http://localhost:${process.env.PORT}`);
+    console.log(`server is running in port ${process.env.PORT}`);
 })
